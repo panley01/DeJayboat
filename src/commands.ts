@@ -4,7 +4,7 @@ import { Context } from "./util";
 
 export interface Command {
   open: boolean;
-  owner: boolean;
+  owner: true;
 
   name: string;
   aliases: string[];
